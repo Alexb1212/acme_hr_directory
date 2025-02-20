@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 5432;
+const port = 3000;
 const { createEmployee, getEmployees, deleteEmployee } = require('./db/employees.js');
 const { getDepartments } = require('./db/departments.js');
 
